@@ -10817,12 +10817,13 @@ span.title {
 /*  32. About Page Style 
 /*----------------------------------------*/
 
+
 .about-area {
     padding: 60px 0px 55px 0px;
+    background-color: #f3f3f3;
 }
 
 .about-content {
-    background-color: #0090F0;
 }
 
 .about-content h2 {
