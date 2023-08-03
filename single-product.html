@@ -1,206 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Ecolife - Multipurpose eCommerce HTML Template</title>
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.png" />
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <title>La Nueva Tortilleria</title>
+            <!-- Favicon -->
+            <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.png" />
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
-
-        <!-- All CSS Flies   -->
-        <!--===== Vendor CSS (Bootstrap & Icon Font) =====-->
-        <!-- <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css" />
-        <link rel="stylesheet" href="assets/css/vendor/stroke-gap-icons.css" />
-        <link rel="stylesheet" href="assets/css/vendor/ionicons.min.css" /> -->
-        <!--===== Plugins CSS (All Plugins Files) =====-->
-        <!-- <link rel="stylesheet" href="assets/css/plugins/jquery-ui.min.css" />
-        <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
-        <link rel="stylesheet" href="assets/css/plugins/venobox.css" />
-        <link rel="stylesheet" href="assets/css/plugins/owl-carousel.css" />
-        <link rel="stylesheet" href="assets/css/plugins/aos.css" />
-        <link rel="stylesheet" href="assets/css/plugins/slick.css" /> -->
-
-        <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
-
-        <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
-        <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
-        <link rel="stylesheet" href="assets/css/style.min.css">
-        <link rel="stylesheet" href="assets/css/responsive.min.css">
-        
-        <!--===== Main Css Files =====-->
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <!-- ===== Responsive Css Files ===== -->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
-    </head>
-    <body>
-        <!-- main layout start from here -->
-        <!--====== PRELOADER PART START ======-->
-
-        <div id="preloader">
-        <div class="preloader">
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
-        <!--====== PRELOADER PART ENDS ======-->
-        <div id="main">
-            <!-- Header Start -->
-            <header class="main-header">
-                <!-- Header Buttom Start -->
-                <div class="header-navigation sticky-nav d-none d-lg-block">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <!-- Logo Start -->
-                            <div class="col-md-2 col-sm-2">
-                                <div class="logo">
-                                    <a href="index.html"><img src="assets/images/logo/logo1final.png" alt="Logo" class="logo-img" /></a>
-                                </div>
-                            </div>
-                            <!-- Logo End -->
-                            <!-- Navigation Start -->
-                            <div class="col-md-10 col-sm-10">
-                                <!--Main Navigation Start -->
-                                <div class="main-navigation">
-                                    <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="shop-left-sidebar.html">Shop</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="contact.html">Store Locator</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                        <li><a href="#">EN | ES</a></li>
-                                    </ul>
-                                </div>
-                                <!--Main Navigation End -->
-                                <!--Header Bottom Account Start -->
-                                <div class="header_account_area">
-                                    <!--Contact info Start -->
-                                    <div class="contact-link">
-                                        <div class="phone">
-                                            <p>Call us:</p>
-                                            <a href="tel:(956)831-2450">(956)831-2450</a>
-                                        </div>
-                                    </div>
-                                    <!--Contact info End -->
-                                    <!--Cart info Start -->
-                                    <div class="cart-info d-flex">
-                                        <div class="mini-cart-warp">
-                                            <a href="#offcanvas-cart" class="count-cart color-black offcanvas-toggle">
-                                                <span class="amount-tag">$20.00</span>
-                                        <span class="item-quantity-tag">02</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!--Cart info End -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Header Bottom Account End -->
-            <!-- Header mobile area start -->
-            <div class="header-bottom d-lg-none sticky-nav py-3 mobile-navigation">
-                <div class="container-fluid">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-md-3 col-sm-3">
-                            <a href="#offcanvas-mobile-menu" class="offcanvas-toggle mobile-menu">
-                                <i class="ion-navicon"></i>
-                            </a>
-                        </div>
-                        <div class="col-md-6 col-sm-4 d-flex justify-content-center">
-                            <div class="logo m-0">
-                                <a href="index.html"><img src="assets/images/logo/logo.jpg" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-5">
-                            <!--Cart info Start -->
-                            <div class="cart-info d-flex m-0 justify-content-end">
-                                <div class="header-bottom-set dropdown">
-                                    <button class="dropdown-toggle header-action-btn" data-bs-toggle="dropdown"> <i
-                                        class="ion-person"></i></button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="my-account.html">My account</a></li>
-                                        <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
-                                        <li><a class="dropdown-item" href="login.html">Sign in</a></li>
-                                    </ul>
-                                </div>
-                                <div class="mini-cart-warp">
-                                    <a href="#offcanvas-cart" class="count-cart offcanvas-toggle color-black">
-                                        <span class="amount-tag">$20.00</span>
-                                        <span class="item-quantity-tag">02</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <!--Cart info End -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Header mobile area end -->
-
-            </header>
             
-        <!-- offcanvas overlay start -->
-        <div class="offcanvas-overlay"></div>
-        <!-- offcanvas overlay end -->
-        <!-- OffCanvas Cart Start -->
-        <div id="offcanvas-cart" class="offcanvas offcanvas-cart">
-            <div class="inner">
-                <div class="head">
-                    <span class="title">Cart</span>
-                    <button class="offcanvas-close">×</button>
-                </div>
-                <div class="body customScroll">
-                    <ul class="minicart-product-list">
-                        <li>
-                            <a href="single-product.html" class="image"><img
-                                    src="assets/images/product-image/mini-cart/1.jpg" alt="Cart product Image"></a>
-                            <div class="content">
-                                <a href="single-product.html" class="title">Juicy Couture...</a>
-                                <span class="quantity-price">1 x <span class="amount">$18.86</span></span>
-                                <a href="#" class="remove">×</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="single-product.html" class="image"><img
-                                    src="assets/images/product-image/mini-cart/2.jpg" alt="Cart product Image"></a>
-                            <div class="content">
-                                <a href="single-product.html" class="title">Water and Wind...</a>
-                                <span class="quantity-price">1 x <span class="amount">$43.28</span></span>
-                                <a href="#" class="remove">×</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="single-product.html" class="image"><img
-                                    src="assets/images/product-image/mini-cart/3.jpg" alt="Cart product Image"></a>
-                            <div class="content">
-                                <a href="single-product.html" class="title">Fila Locker Room...</a>
-                                <span class="quantity-price">1 x <span class="amount">$37.34</span></span>
-                                <a href="#" class="remove">×</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="shopping-cart-total">
-                    <h4>Subtotal : <span>$20.00</span></h4>
-                    <h4>Shipping : <span>$7.00</span></h4>
-                    <h4>Taxes : <span>$0.00</span></h4>
-                    <h4 class="shop-total">Total : <span>$27.00</span></h4>
-                </div>
-                <div class="foot">
-                    <div class="buttons">
-                        <a href="cart.html" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
-                        <a href="checkout.html" class="btn btn-outline-dark current-btn">checkout</a>
-                    </div>
-                </div>
+            <!-- Google Fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+            <!-- All CSS Flies   -->
+            <!--===== Vendor CSS (Bootstrap & Icon Font) =====-->
+            <!-- <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+            <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css" />
+            <link rel="stylesheet" href="assets/css/vendor/stroke-gap-icons.css" />
+            <link rel="stylesheet" href="assets/css/vendor/ionicons.min.css" /> -->
+            <!--===== Plugins CSS (All Plugins Files) =====-->
+            <!-- <link rel="stylesheet" href="assets/css/plugins/jquery-ui.min.css" />
+            <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
+            <link rel="stylesheet" href="assets/css/plugins/venobox.css" />
+            <link rel="stylesheet" href="assets/css/plugins/owl-carousel.css" />
+            <link rel="stylesheet" href="assets/css/plugins/aos.css" />
+            <link rel="stylesheet" href="assets/css/plugins/slick.css" /> -->
+
+            <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
+
+            <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+            <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+            <link rel="stylesheet" href="assets/css/style.min.css">
+            <link rel="stylesheet" href="assets/css/responsive.min.css">
+            
+            <!--===== Main Css Files =====-->
+            <link rel="stylesheet" href="assets/css/style.css" />
+            <!-- ===== Responsive Css Files ===== -->
+            <link rel="stylesheet" href="assets/css/responsive.css" />
+        </head>
+
+        <body>
+            <!-- main layout start from here -->
+            <!--====== PRELOADER PART START ======-->
+
+            <div id="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
             </div>
         </div>
-        <!-- OffCanvas Cart End -->
+
+            <!--====== PRELOADER PART ENDS ======-->
+            <div id="main">
+                <!-- Header Start -->
+                <header class="main-header">
+                    <!-- Header Buttom Start -->
+                    <div class="header-navigation sticky-nav d-none d-lg-block">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!-- Logo Start -->
+                                <div class="col-md-2 col-sm-2">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="assets/images/logo/logo1final.png" alt="Logo" class="logo-img" /></a>
+                                    </div>
+                                </div>
+                                <!-- Logo End -->
+                                <!-- Navigation Start -->
+                                <div class="col-md-10 col-sm-10">
+                                    <!--Main Navigation Start -->
+                                    <div class="main-navigation">
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="shop-left-sidebar.html">Shop</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="store-locator.html">Store Locator</a></li>
+                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="#">EN | ES</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--Main Navigation End -->
+                                    <!--Header Bottom Account Start -->
+                                    <div class="header_account_area">
+                                        <!--Contact info Start -->
+                                        <div class="contact-link">
+                                            <div class="phone">
+                                                <p>Call us:</p>
+                                                <a href="tel:(956)831-2450">(956)831-2450</a>
+                                            </div>
+                                        </div>
+                                        <!--Contact info End -->
+                                        <!--Cart info Start -->
+                                        <div class="cart-info d-flex">
+                                            <div class="mini-cart-warp">
+                                                <a href="#offcanvas-cart" class="count-cart color-black offcanvas-toggle">
+                                                    <span class="amount-tag">$20.00</span>
+                                            <span class="item-quantity-tag">02</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!--Cart info End -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Header Bottom Account End -->
+                <!-- Header mobile area start -->
+                <div class="header-bottom d-lg-none sticky-nav py-3 mobile-navigation">
+                    <div class="container-fluid">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-md-3 col-sm-3">
+                                <a href="#offcanvas-mobile-menu" class="offcanvas-toggle mobile-menu">
+                                    <i class="ion-navicon"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-4 d-flex justify-content-center">
+                                <div class="logo-m0">
+                                    <a href="index.html"><img src="assets/images/logo/logo1final.png" alt="Logo" class="logo-img-m" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-5">
+                                <!--Cart info Start -->
+                                <div class="cart-info d-flex m-0 justify-content-end">
+                                    <div class="header-bottom-set dropdown">
+                                        <button class="dropdown-toggle border-0 header-action-btn hover-style-default" data-bs-toggle="dropdown"> <i
+                                            class="ion-person"></i></button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="my-account.html">My account</a></li>
+                                            <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                            <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mini-cart-warp">
+                                        <a href="#offcanvas-cart" class="count-cart color-black offcanvas-toggle">
+                                            <span class="amount-tag">$20.00</span>
+                                            <span class="item-quantity-tag">02</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--Cart info End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header mobile area end -->
+                </header>
+                <!-- Header End -->
+                
+                    <!-- offcanvas overlay start -->
+                    <div class="offcanvas-overlay"></div>
+                    <!-- offcanvas overlay end -->
+                    <!-- OffCanvas Cart Start -->
+                    <div id="offcanvas-cart" class="offcanvas offcanvas-cart">
+                        <div class="inner">
+                            <div class="head">
+                                <span class="title">Cart</span>
+                                <button class="offcanvas-close">×</button>
+                            </div>
+                            <div class="body customScroll">
+                                <ul class="minicart-product-list">
+                                    <li>
+                                        <a href="single-product.html" class="image"><img
+                                                src="assets/images/product-image/mini-cart/1.jpg" alt="Cart product Image"></a>
+                                        <div class="content">
+                                            <a href="single-product.html" class="title">Juicy Couture...</a>
+                                            <span class="quantity-price">1 x <span class="amount">$18.86</span></span>
+                                            <a href="#" class="remove">×</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="single-product.html" class="image"><img
+                                                src="assets/images/product-image/mini-cart/2.jpg" alt="Cart product Image"></a>
+                                        <div class="content">
+                                            <a href="single-product.html" class="title">Water and Wind...</a>
+                                            <span class="quantity-price">1 x <span class="amount">$43.28</span></span>
+                                            <a href="#" class="remove">×</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="single-product.html" class="image"><img
+                                                src="assets/images/product-image/mini-cart/3.jpg" alt="Cart product Image"></a>
+                                        <div class="content">
+                                            <a href="single-product.html" class="title">Fila Locker Room...</a>
+                                            <span class="quantity-price">1 x <span class="amount">$37.34</span></span>
+                                            <a href="#" class="remove">×</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="shopping-cart-total">
+                                <h4>Subtotal : <span>$20.00</span></h4>
+                                <h4>Shipping : <span>$7.00</span></h4>
+                                <h4>Taxes : <span>$0.00</span></h4>
+                                <h4 class="shop-total">Total : <span>$27.00</span></h4>
+                            </div>
+                            <div class="foot">
+                                <div class="buttons">
+                                    <a href="cart.html" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
+                                    <a href="checkout.html" class="btn btn-outline-dark current-btn">checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- OffCanvas Cart End -->
+                    <!-- OffCanvas Menu Start -->
+                    <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
+                        <button class="offcanvas-close"></button>
+                        <!-- contact Info -->
+                        <div class="contact-info d-flex align-items-center justify-content-center color-black py-3">
+                            <img class="me-3" src="assets/images/icons/mobile-contact.png" alt="">
+                            <p>Call us:</p>
+                            <a class="color-black" href="tel:(956)572-0241">(956)831-2450</a>
+                        </div>
+                        <!-- offcanvas language -->
+                        <div class="offcanvas-userpanel">
+                            <ul>
+                                <li class="offcanvas-userpanel__role">
+                                    <a href="#"><img src="assets/images/icons/1.jpg" alt="">English  <i class="ion-ios-arrow-down"></i></a>
+                                    <ul class="user-sub-menu">
+                                        <li><a class="current" href="#"><img src="assets/images/icons/1.jpg" alt="">Spanish</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-close">
+                            menu
+                        </div>
+                        <!-- offcanvas menu -->
+                        <div class="inner customScroll">
+                            <div class="offcanvas-menu mb-4">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="shop-left-sidebar.html">Shop</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="store-locator.html">Store Locator</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                            </div>
+                            <!-- OffCanvas Menu End -->
+                            <div class="offcanvas-social mt-5">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/LaNuevaTortilleria/"><i class="ion-social-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/lanuevatortilleria/"><i class="ion-social-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- OffCanvas Menu End -->
             <!-- Shop details Area start -->
             <section class="product-details-area mtb-60px">
                 <div class="container">
