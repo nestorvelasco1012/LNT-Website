@@ -6902,6 +6902,8 @@ a.quick_view:hover {
 
 .about-footer {
     max-width: 400px;
+    text-align: center;
+    padding-right: 115px;
 }
 
 .footer-area .row .col-lg-4:first-child:before {
